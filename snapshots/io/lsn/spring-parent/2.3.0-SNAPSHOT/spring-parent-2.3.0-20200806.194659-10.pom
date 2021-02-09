@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.lsn</groupId>
+    <artifactId>spring-parent</artifactId>
+    <version>2.3.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>spring-parent</name>
+
+    <scm>
+        <connection>scm:git:git@github.com:lsnova/lsn-spring.git</connection>
+        <developerConnection>scm:git:git@github.com:lsnova/lsn-spring.git</developerConnection>
+        <url>https://github.com/lsnova/lsn-spring/tree/master</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Logisfera Nova developers</name>
+            <email>info@lsnova.pl</email>
+            <organization>logisfera nova</organization>
+            <organizationUrl>http://lsnova.pl</organizationUrl>
+        </developer>
+    </developers>
+
+
+    <properties>
+        <revision>2.3.0-SNAPSHOT</revision>
+
+        <com.aspose.aspose-cells.version>17.9</com.aspose.aspose-cells.version>
+        <com.aspose.aspose-barcode.version>18.12</com.aspose.aspose-barcode.version>
+        <com.aspose.aspose-words.version>18.7</com.aspose.aspose-words.version>
+        <com.j256.simplemagic.version>1.16</com.j256.simplemagic.version>
+        <commons-fileupload.version>1.4</commons-fileupload.version>
+        <commons-io.version>2.6</commons-io.version>
+        <flyway.version>6.0.7</flyway.version>
+        <hibernate-validator.version>6.0.17.Final</hibernate-validator.version>
+        <jackson.version>2.10.0</jackson.version>
+        <javax-servlet.api>2.5</javax-servlet.api>
+        <javax-validation-api.version>2.0.1.Final</javax-validation-api.version>
+        <jedis.version>3.1.0</jedis.version>
+        <joda-time.version>2.10.5</joda-time.version>
+        <junit.version>4.12</junit.version>
+        <log4j-api.version>2.12.1</log4j-api.version>
+        <log4j.version>1.2.17</log4j.version>
+        <mybatis-starter.version>1.3.4</mybatis-starter.version>
+        <mybatis-typehandler-jsr310.version>1.0.2</mybatis-typehandler-jsr310.version>
+        <org.apache.commons.commons-io.version>1.3.2</org.apache.commons.commons-io.version>
+        <org.apache.pdfbox.pdfbox.version>2.0.15</org.apache.pdfbox.pdfbox.version>
+        <org.zeroturnaround.zt-zip.version>1.13</org.zeroturnaround.zt-zip.version>
+        <redisson.version>3.12.5</redisson.version>
+        <slf4j.version>1.7.28</slf4j.version>
+        <guava.version>28.1-jre</guava.version>
+        <commons.lang.version>2.6</commons.lang.version>
+
+        <org.zalando.logbook-spring-boot-starter.version>1.13.0</org.zalando.logbook-spring-boot-starter.version>
+        <org.zalando.tracer-spring-boot-starter.version>0.17.1</org.zalando.tracer-spring-boot-starter.version>
+
+        <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+        <maven-nexus-staging-plugin.version>1.5.1</maven-nexus-staging-plugin.version>
+    </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.0.RELEASE</version>
+        <relativePath />
+    </parent>
+
+    <modules>
+        <module>spring-core</module>
+        <module>spring-mail</module>
+        <module>spring-starter</module>
+        <module>logger-factory</module>
+        <module>spring-file</module>
+        <module>spring-dictionary</module>
+        <module>spring-printout</module>
+        <module>spring-bluemedia-payment</module>
+        <module>spring-esb-sms</module>
+        <module>spring-bluemedia-sms</module>
+        <module>spring-rest</module>
+        <module>spring-ergo-archive</module>
+        <module>spring-system-mapper</module>
+        <module>spring-gus</module>
+        <module>spring-result-cache</module>
+        <module>spring-pesel-validator</module>
+        <module>spring-issue</module>
+        <module>spring-auth</module>
+        <module>spring-limiter</module>
+        <module>aspose-cells-helper</module>
+        <module>spring-mf</module>
+        <module>spring-model</module>
+        <module>spring-logbook</module>
+        <module>java-pipeline</module>
+        <module>mybatis-cache</module>
+        <module>polar</module>
+        <module>spring-data-request-passing</module>
+        <module>spring-oauth2</module>
+    </modules>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>github</id>
+            <url>https://github.com/lsnova/artifacts/raw/master/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>AsposeJavaAPI</id>
+            <name>Aspose Java API</name>
+            <url>http://maven.aspose.com/repository/simple/ext-release-local/</url>
+        </repository>
+    </repositories>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>logger-factory</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${revision}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>javax.servlet</groupId>
+                        <artifactId>servlet-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-mail</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-file</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-dictionary</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-printout</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-bluemedia-payment</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-esb-sms</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-bluemedia-sms</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-rest</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-ergo-archive</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-system-mapper</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-result-cache</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-gus</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-pesel-validator</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-issue</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-auth</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-limiter</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-mf</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-model</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-logbook</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-data-request-passing</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>aspose-cells-helper</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>java-pipeline</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>mybatis-cache</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>polar</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.lsn</groupId>
+                <artifactId>spring-oauth2</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>cleanup-local-integration-repo</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <replaceregexp match="\$\{revision\}" replace="${project.version}" flags="g" byline="true">
+                                    <fileset dir="${project.build.directory}" includes="**/*.pom" />
+                                </replaceregexp>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+
+        <profile>
+            <id>snapshot</id>
+            <properties>
+                <altDeploymentRepository>github::default::file:../artifacts/snapshots</altDeploymentRepository>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-deploy-plugin</artifactId>
+                        <version>${maven-deploy-plugin.version}</version>
+                        <configuration>
+                            <skip>true</skip>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>ossrh</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-release-plugin</artifactId>
+                        <version>2.5.3</version>
+                        <configuration>
+                            <autoVersionSubmodules>true</autoVersionSubmodules>
+                            <useReleaseProfile>true</useReleaseProfile>
+                            <releaseProfiles>release</releaseProfiles>
+                            <goals>deploy</goals>
+                        </configuration>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

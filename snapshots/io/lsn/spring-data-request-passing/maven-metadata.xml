@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.lsn</groupId>
+  <artifactId>spring-data-request-passing</artifactId>
+  <versioning>
+    <versions>
+      <version>2.3.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200806194706</lastUpdated>
+  </versioning>
+</metadata>
