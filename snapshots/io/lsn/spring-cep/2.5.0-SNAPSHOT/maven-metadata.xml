@@ -5,26 +5,26 @@
   <version>2.5.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20211123.135716</timestamp>
-      <buildNumber>6</buildNumber>
+      <timestamp>20211215.073805</timestamp>
+      <buildNumber>7</buildNumber>
     </snapshot>
-    <lastUpdated>20211123135716</lastUpdated>
+    <lastUpdated>20211215073805</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.5.0-20211123.135716-6</value>
-        <updated>20211123135716</updated>
+        <value>2.5.0-20211215.073805-7</value>
+        <updated>20211215073805</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.5.0-20211123.135716-6</value>
-        <updated>20211123135716</updated>
+        <value>2.5.0-20211215.073805-7</value>
+        <updated>20211215073805</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.5.0-20211123.135716-6</value>
-        <updated>20211123135716</updated>
+        <value>2.5.0-20211215.073805-7</value>
+        <updated>20211215073805</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
