@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.lsn</groupId>
+  <artifactId>spring-dictionary</artifactId>
+  <versioning>
+    <lastUpdated>20230102145011</lastUpdated>
+    <snapshot>
+      <timestamp>20230102.145011</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.7.7-20230102.145011-1</value>
+        <updated>20230102145011</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.7.7-20230102.145011-1</value>
+        <updated>20230102145011</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>2.7.7-20230102.145011-1</value>
+        <updated>20230102145011</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>2.7.7-SNAPSHOT</version>
+</metadata>
