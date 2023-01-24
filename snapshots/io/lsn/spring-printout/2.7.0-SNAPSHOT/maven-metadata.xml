@@ -2,30 +2,30 @@
 <metadata modelVersion="1.1.0">
   <groupId>io.lsn</groupId>
   <artifactId>spring-printout</artifactId>
-  <version>2.7.0-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20230124133908</lastUpdated>
     <snapshot>
-      <timestamp>20221228.105646</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20230124.133908</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
-    <lastUpdated>20221228105646</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.7.0-20221228.105646-11</value>
-        <updated>20221228105646</updated>
+        <value>2.7.0-20230124.133908-12</value>
+        <updated>20230124133908</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.7.0-20221228.105646-11</value>
-        <updated>20221228105646</updated>
+        <value>2.7.0-20230124.133908-12</value>
+        <updated>20230124133908</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.7.0-20221228.105646-11</value>
-        <updated>20221228105646</updated>
+        <value>2.7.0-20230124.133908-12</value>
+        <updated>20230124133908</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>2.7.0-SNAPSHOT</version>
 </metadata>
