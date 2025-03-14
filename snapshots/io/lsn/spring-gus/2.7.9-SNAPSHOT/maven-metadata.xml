@@ -3,27 +3,27 @@
   <groupId>io.lsn</groupId>
   <artifactId>spring-gus</artifactId>
   <versioning>
-    <lastUpdated>20241222134411</lastUpdated>
+    <lastUpdated>20250314110749</lastUpdated>
     <snapshot>
-      <timestamp>20241222.134411</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20250314.110749</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.7.9-20241222.134411-1</value>
-        <updated>20241222134411</updated>
+        <value>2.7.9-20250314.110749-2</value>
+        <updated>20250314110749</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.7.9-20241222.134411-1</value>
-        <updated>20241222134411</updated>
+        <value>2.7.9-20250314.110749-2</value>
+        <updated>20250314110749</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.7.9-20241222.134411-1</value>
-        <updated>20241222134411</updated>
+        <value>2.7.9-20250314.110749-2</value>
+        <updated>20250314110749</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
