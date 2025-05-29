@@ -3,27 +3,27 @@
   <groupId>io.lsn</groupId>
   <artifactId>spring-mail</artifactId>
   <versioning>
-    <lastUpdated>20250516095532</lastUpdated>
+    <lastUpdated>20250529122838</lastUpdated>
     <snapshot>
-      <timestamp>20250516.095532</timestamp>
-      <buildNumber>12</buildNumber>
+      <timestamp>20250529.122838</timestamp>
+      <buildNumber>13</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.5.12-20250516.095532-12</value>
-        <updated>20250516095532</updated>
+        <value>2.5.12-20250529.122838-13</value>
+        <updated>20250529122838</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.5.12-20250516.095532-12</value>
-        <updated>20250516095532</updated>
+        <value>2.5.12-20250529.122838-13</value>
+        <updated>20250529122838</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.5.12-20250516.095532-12</value>
-        <updated>20250516095532</updated>
+        <value>2.5.12-20250529.122838-13</value>
+        <updated>20250529122838</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
