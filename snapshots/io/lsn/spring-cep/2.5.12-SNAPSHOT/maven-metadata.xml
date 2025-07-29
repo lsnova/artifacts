@@ -3,27 +3,27 @@
   <groupId>io.lsn</groupId>
   <artifactId>spring-cep</artifactId>
   <versioning>
-    <lastUpdated>20231212120608</lastUpdated>
+    <lastUpdated>20250729080516</lastUpdated>
     <snapshot>
-      <timestamp>20231212.120608</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20250729.080516</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.5.12-20231212.120608-2</value>
-        <updated>20231212120608</updated>
+        <value>2.5.12-20250729.080516-3</value>
+        <updated>20250729080516</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.5.12-20231212.120608-2</value>
-        <updated>20231212120608</updated>
+        <value>2.5.12-20250729.080516-3</value>
+        <updated>20250729080516</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.5.12-20231212.120608-2</value>
-        <updated>20231212120608</updated>
+        <value>2.5.12-20250729.080516-3</value>
+        <updated>20250729080516</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
