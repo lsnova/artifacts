@@ -3,27 +3,27 @@
   <groupId>io.lsn</groupId>
   <artifactId>spring-bluemedia-sms</artifactId>
   <versioning>
-    <lastUpdated>20251105082437</lastUpdated>
+    <lastUpdated>20251105083252</lastUpdated>
     <snapshot>
-      <timestamp>20251105.082437</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20251105.083252</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.7.7-20251105.082437-3</value>
-        <updated>20251105082437</updated>
+        <value>2.7.7-20251105.083252-4</value>
+        <updated>20251105083252</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.7.7-20251105.082437-3</value>
-        <updated>20251105082437</updated>
+        <value>2.7.7-20251105.083252-4</value>
+        <updated>20251105083252</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.7.7-20251105.082437-3</value>
-        <updated>20251105082437</updated>
+        <value>2.7.7-20251105.083252-4</value>
+        <updated>20251105083252</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
