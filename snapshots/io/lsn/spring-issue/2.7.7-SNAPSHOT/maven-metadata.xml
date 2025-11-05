@@ -3,27 +3,27 @@
   <groupId>io.lsn</groupId>
   <artifactId>spring-issue</artifactId>
   <versioning>
-    <lastUpdated>20230124133648</lastUpdated>
+    <lastUpdated>20251105082437</lastUpdated>
     <snapshot>
-      <timestamp>20230124.133648</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20251105.082437</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.7.7-20230124.133648-2</value>
-        <updated>20230124133648</updated>
+        <value>2.7.7-20251105.082437-3</value>
+        <updated>20251105082437</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.7.7-20230124.133648-2</value>
-        <updated>20230124133648</updated>
+        <value>2.7.7-20251105.082437-3</value>
+        <updated>20251105082437</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.7.7-20230124.133648-2</value>
-        <updated>20230124133648</updated>
+        <value>2.7.7-20251105.082437-3</value>
+        <updated>20251105082437</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
